@@ -1,0 +1,32 @@
+# Ignorar arquivos de configuração do sistema
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignorar arquivos de configuração do IDE
+.vscode/
+.idea/
+
+# Arquivos gerados durante o desenvolvimento
+dist/
+build/
+*.bak
+*.log
+*.swp
+
+# Dependências específicas do ambiente
+.npmrc
+.yarnrc
+
+# Arquivos de chave ou tokens (não inclua suas chaves reais no repositório!)
+.env
+.env.local
+.env.*.local
+
+# Arquivos que contenham senhas ou dados sensíveis
+*.pem
+*.key
+*.cert
+
+# Ignorar diretórios de cache
+.cache/
