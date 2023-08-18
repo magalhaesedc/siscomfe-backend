@@ -3,6 +3,6 @@ import OfertaController from "../controllers/oferta.controller.js"
 
 const router = express.Router()
 
-router.get("/", OfertaController.getOfertas)
+router.get("/", OfertaController.buscarOfertas)
 
 export default router

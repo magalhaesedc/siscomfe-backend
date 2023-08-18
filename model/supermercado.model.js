@@ -3,7 +3,7 @@ import db from "../repositories/conexao.js"
 import Cidade from "./cidade.model.js"
 
 const Supermercado = db.define(
-    "supermecados",
+    "supermercados",
     {
         idSupermercado: {
             type: Sequelize.INTEGER,

@@ -1,8 +1,9 @@
+import OfertaRepository from "../repositories/oferta.repository.js"
 
-function getOfertas(){
-    return { "sucess": "Listagem de Ofertas" };
+async function buscarOfertas(){
+    return OfertaRepository.buscarOfertas()
 }
 
 export default {
-    getOfertas
+    buscarOfertas
 }

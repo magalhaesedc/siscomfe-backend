@@ -1,12 +1,10 @@
 import OfertaService from "../services/oferta.service.js"
 
-function getOfertas(req, res, next){
-
-    let list = OfertaService.getOfertas()
-    console.log(list)
-    res.status(200).send(list)
+async function buscarOfertas(req, res, next){
+    let ofertas = await OfertaService.buscarOfertas()
+    res.status(200).json(ofertas)
 }
 
 export default {
-    getOfertas
+    buscarOfertas
 }

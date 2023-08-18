@@ -1,5 +1,7 @@
 import express from "express"
 import OfertaRouter from "./routes/oferta.route.js"
+import ProdutoRouter from "./routes/produto.route.js"
+import SupermercadoRouter from "./routes/supermercado.route.js"
 
 const app = express()
 app.use(express.json())
@@ -9,5 +11,9 @@ app.get("/", (req, res) => {
 });
 
 app.use("/oferta", OfertaRouter)
+
+app.use("/produto", ProdutoRouter)
+
+app.use("/supermercado", SupermercadoRouter)
 
 app.listen(3000, () => console.log("API Started! Port 3000 in http://localhost:3000"))

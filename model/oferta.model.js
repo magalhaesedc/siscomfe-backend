@@ -6,7 +6,7 @@ import Produto from "./produto.model.js"
 const Oferta = db.define(
     "ofertas",
     {
-        idOfertas: {
+        idOferta: {
             type: Sequelize.INTEGER,
             autoIncrement: true,
             allowNull: false,
