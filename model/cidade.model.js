@@ -15,7 +15,7 @@ const Cidade = db.define(
             allowNull: false
         }
     },
-    {underscored:true}
+    { underscored:true }
 )
 
 export default Cidade

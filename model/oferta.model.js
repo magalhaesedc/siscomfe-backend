@@ -17,10 +17,10 @@ const Oferta = db.define(
             allowNull: false
         }
     },
-    {underscored: true}
+    { underscored: true }
 )
 
-Oferta.belongsTo(Supermercado, {foreignKey: "idSupermercado"});
-Oferta.belongsTo(Produto, {foreignKey: "idProduto"});
+Oferta.belongsTo(Supermercado, { foreignKey: "idSupermercado" })
+Oferta.belongsTo(Produto, { foreignKey: "idProduto" })
 
 export default Oferta

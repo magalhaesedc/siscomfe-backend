@@ -15,7 +15,7 @@ const Categoria = db.define(
             allowNull: false
         }
     },
-    {underscored: true}
+    { underscored: true }
 )
 
 export default Categoria

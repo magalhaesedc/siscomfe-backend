@@ -16,9 +16,9 @@ const Produto = db.define(
             allowNull: false
         }
     },
-    {underscored: true}
+    { underscored: true }
 )
 
-Produto.belongsTo(Categoria, {foreignKey: "idCategoria"})
+Produto.belongsTo(Categoria, { foreignKey: "idCategoria" })
 
 export default Produto

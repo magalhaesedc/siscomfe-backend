@@ -20,9 +20,9 @@ const Supermercado = db.define(
             allowNull: false
         }
     },
-    {underscored: true}
+    { underscored: true }
 )
 
-Supermercado.belongsTo(Cidade, {foreignKey: "idCidade"})
+Supermercado.belongsTo(Cidade, { foreignKey: "idCidade" })
 
 export default Supermercado
