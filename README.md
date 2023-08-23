@@ -77,7 +77,7 @@ O projeto oferece os seguintes endpoints da API:
 
 ## Diagrama de Entidade Relacionamento (ER)
 
-Para visualizar a estrutura do banco de dados e as relações entre as tabelas, consulte o [Diagrama de Entidade Relacionamento (ER)](https://github.com/magalhaesedc/siscomfe-backend/master/DER.png).
+Para visualizar a estrutura do banco de dados e as relações entre as tabelas, consulte o [Diagrama de Entidade Relacionamento (ER)](https://raw.githubusercontent.com/magalhaesedc/siscomfe-backend/master/DER.png).
 
 ## Contribuindo
 
