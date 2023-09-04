@@ -17,7 +17,7 @@ Antes de iniciar o projeto, certifique-se de que você tenha as seguintes tecnol
 1. Clone o repositório do GitHub:
 
 <pre>
-$ git clone https://github.com/seu-usuario/siscomfe.git
+$ git clone https://github.com/magalhaesedc/siscomfe-backend.git
 </pre>
 
 2. Acesse o diretório do projeto:
@@ -36,7 +36,7 @@ $ npm install
 $ npm start
 </pre>
 
-6. O servidor estará disponível em `http://localhost:3000`.
+6. O servidor estará disponível em `http://localhost:4000`.
 
 ## Endpoints da API
 
